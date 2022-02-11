@@ -1,0 +1,23 @@
+.btn {
+    color: white;
+    background: #5e97f9;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: #3c6bbd;
+    transition: all 0.5s ease-out;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+}
+
+.form-group {
+    display: block;
+}
