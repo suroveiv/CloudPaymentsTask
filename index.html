@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/script.js"></script>
+    <script src="https://widget.cloudpayments.ru/bundles/cloudpayments"></script>
+    <link href="CSS/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="form-group">
+    <label for="firstName">Имя</label>
+    <input type="text" id="firstName" placeholder="Игорь">
+</div>
+
+<div class="form-group">
+    <label for="lastName">Фамилия</label>
+    <input type="text" id="lastName" placeholder="Суровешкин">
+</div>
+
+<div class="form-group">
+    <label>Номер телефона</label>
+    <input type="text" id="phone">
+</div>
+
+<div class="form-group">
+    <label for="email">Почта</label>
+    <input type="text" id="email" value="suroveshkin.igor@gmail.com">
+</div>
+
+<div class="form-group">
+    <label for="amount">Сумма</label>
+    <input type="text" id="amount" placeholder="1500">
+    <label for="amount">Валюта</label>
+    <select name="currency">
+        <option>RUB</option>
+        <option>USD</option>
+    </select>
+</div>
+
+<div>
+    <label for="description">Назначение денег</label>
+    <input type="text" id="description" placeholder="Оплата на тестовом сайте">
+</div>
+
+
+<div class="form-group">
+    <label for="recurrent">Подписка</label>
+    <input type="checkbox" id="recurrent">
+</div>
+
+<input type="button" class="btn" id="payButton" value="Оплатить">
+<div class="form-group">
+    Вы можете остановить регулярные платежи в любой момент на <a href="https://my.cloudpayments.ru/unsubscribe"
+                                                                 target="_blank">сайте системы CloudPayments</a>.
+</div>
+
+</body>
+</html>
